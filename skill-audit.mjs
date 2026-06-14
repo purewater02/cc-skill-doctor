@@ -121,7 +121,7 @@ for (const [k, v] of usage) {
 other.sort((a, b) => b.c - a.c);
 
 const P = (...a) => console.log(...a);
-P(`\n  claude-skill-audit  ·  100% local (reads ~/.claude only)\n`);
+P(`\n  cc-skill-doctor  ·  100% local (reads ~/.claude only)\n`);
 P(`  Sessions scanned      : ${sessions}`);
 P(`  Skills installed      : ${installed.length}`);
 P(`  Skills actually used  : ${used.length}`);
