@@ -1,10 +1,10 @@
 {
-  "name": "claude-skill-audit",
+  "name": "cc-skill-doctor",
   "version": "0.1.0",
   "description": "Find your dead-weight Claude Code skills — which installed skills actually fire vs never run. Zero-dep, 100% local.",
   "type": "module",
   "bin": {
-    "claude-skill-audit": "skill-audit.mjs"
+    "cc-skill-doctor": "skill-audit.mjs"
   },
   "files": [
     "skill-audit.mjs",
@@ -28,11 +28,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/purewater02/claude-skill-audit.git"
+    "url": "git+https://github.com/purewater02/cc-skill-doctor.git"
   },
-  "homepage": "https://github.com/purewater02/claude-skill-audit#readme",
+  "homepage": "https://github.com/purewater02/cc-skill-doctor#readme",
   "bugs": {
-    "url": "https://github.com/purewater02/claude-skill-audit/issues"
+    "url": "https://github.com/purewater02/cc-skill-doctor/issues"
   },
   "license": "MIT",
   "author": "pure"

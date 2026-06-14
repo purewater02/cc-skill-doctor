@@ -1,12 +1,12 @@
-# claude-skill-audit
+# cc-skill-doctor
 
 > Which of your installed Claude Code skills actually fire? Find your **dead weight** — skills that sit in your agent's consideration surface every session but you never invoke.
 
 There's no built-in `claude skills --stats` (yet). So this reads your **local session logs** and shows which installed skills you've actually used vs. which have never fired once.
 
 ```bash
-npx claude-skill-audit                          # once published to npm
-npx github:purewater02/claude-skill-audit       # run straight from GitHub (no install)
+npx cc-skill-doctor                          # once published to npm
+npx github:purewater02/cc-skill-doctor       # run straight from GitHub (no install)
 node skill-audit.mjs                            # or clone + run directly
 ```
 
