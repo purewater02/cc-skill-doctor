@@ -5,7 +5,9 @@
 There's no built-in `claude skills --stats` (yet). So this reads your **local session logs** and shows which installed skills you've actually used vs. which have never fired once.
 
 ```bash
-node skill-audit.mjs
+npx claude-skill-audit                          # once published to npm
+npx github:purewater02/claude-skill-audit       # run straight from GitHub (no install)
+node skill-audit.mjs                            # or clone + run directly
 ```
 
 ```

@@ -1,0 +1,39 @@
+{
+  "name": "claude-skill-audit",
+  "version": "0.1.0",
+  "description": "Find your dead-weight Claude Code skills — which installed skills actually fire vs never run. Zero-dep, 100% local.",
+  "type": "module",
+  "bin": {
+    "claude-skill-audit": "skill-audit.mjs"
+  },
+  "files": [
+    "skill-audit.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "claude-code",
+    "claude",
+    "ai",
+    "agent",
+    "skills",
+    "context",
+    "context-rot",
+    "audit",
+    "cli",
+    "tokens"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purewater02/claude-skill-audit.git"
+  },
+  "homepage": "https://github.com/purewater02/claude-skill-audit#readme",
+  "bugs": {
+    "url": "https://github.com/purewater02/claude-skill-audit/issues"
+  },
+  "license": "MIT",
+  "author": "pure"
+}
